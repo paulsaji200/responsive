@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.but1 {
+  border-style: solid;
+  color: black;
+  background-color: white;
+  text-align: right;
+}
+.back {
+  background-image: url(images/ba.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+.hda {
+  color: white;
+}
+.fm {
+  text-align: center;
+}
+.fm input {
+  text-align: center;
+}
+
+@media (width>=1024px) {
+  .fm {
+    display: flex;
+    width: fit-content;
+    padding: 10px 10px 10px 30px;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+  }
+  .fm input {
+    border-style: none;
+  }
+  .hda {
+    margin-top: 25%;
+  }
+}
+.bt1 {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 40px;
+}
+
+.pa {
+  position: relative;
+  margin-top: 20px;
+}
+.pa span {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  color: white;
+}
+
+@media (width>=660px) {
+  .pa {
+    margin-top: 0px;
+  }
+}
+.head4 img {
+  width: 400px;
+}
+@media (width<=660px) {
+  .head4 img {
+    width: 300px;
+  }
+}
+.im3 {
+  position: relative;
+  color: white;
+  width: 100%;
+}
+.im3 span {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+.btn1 {
+}
+.pa img {
+  width: 100%;
+  border-radius: 10px;
+}
+.iml img {
+  width: 100%;
+  
+
+}
